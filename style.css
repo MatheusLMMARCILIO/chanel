@@ -1,0 +1,142 @@
+@import url(https://db.onlinewebfonts.com/c/5fd740bac1abfb826fb7e35ae963efc9?family=ABChanel+Corpo+Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ABChanel Corpo Regular";
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.coocChanel {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.black {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+
+.coocChanel img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.coocChanel ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.coocChanel li {
+  margin: 0px 16px 16px;
+}
+
+.coocChanel a {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  border-bottom: 3px solid black;
+}
+
+.ultraback {
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(IMAGE/banner1.webp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ultraback h1 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: white;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.ultraback p {
+  font-size: clamp(1rem, 0.600vw, 1.5rem);
+  color: white;
+  margin-bottom: 30px;
+  margin: 0px 50px;
+text-align: center;
+}
+
+.ultraback button {
+  margin: 20px 50px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  padding-bottom: 5px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.correcteur {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.correcteurOne {
+  width: 50%;
+}
+
+.TwoCorrecteur {
+  width: 50%;
+}
+ .TwoCorrecteur img {
+width: 100%;
+max-width: 700px;
+ }
+
+
+
+
+
+
+
+
+@media (max-width: 1028px) {
+  .box li {
+    display: none;
+  }
+
+  .box li:has(.active) {
+    display: block;
+  }
+}
