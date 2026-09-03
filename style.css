@@ -48,8 +48,6 @@
 .coocChanel a {
   color: black;
   font-weight: 600;
-  letter-spacing: 0;
-  line-height: 1.5;
   text-decoration: none;
   font-size: 12px;
   display: flex;
@@ -86,7 +84,7 @@
   color: white;
   margin-bottom: 30px;
   margin: 0px 50px;
-text-align: center;
+  text-align: center;
 }
 
 .ultraback button {
@@ -97,6 +95,7 @@ text-align: center;
   border-bottom: 2px solid white;
   cursor: pointer;
   padding-bottom: 5px;
+
   a {
     text-decoration: none;
     color: white;
@@ -119,16 +118,11 @@ text-align: center;
 .TwoCorrecteur {
   width: 50%;
 }
- .TwoCorrecteur img {
-width: 100%;
-max-width: 700px;
- }
 
-
-
-
-
-
+.TwoCorrecteur img {
+  width: 100%;
+  max-width: 700px;
+}
 
 
 @media (max-width: 1028px) {
@@ -139,4 +133,28 @@ max-width: 700px;
   .box li:has(.active) {
     display: block;
   }
+}
+
+.discount {
+  width: 100%;
+  height: 56px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount p {
+  font-size: 13px;
+  color: black;
+   font-family: sans-serif;
+   margin-right: 50px;
+}
+
+.discount button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #f9f9f9;
+  cursor: pointer;
 }
